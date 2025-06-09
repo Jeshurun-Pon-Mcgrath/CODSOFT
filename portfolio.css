@@ -1,0 +1,112 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: white;
+  padding: 50px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.light-bg {
+  background-color: #ecf0f1;
+}
+
+.profile-photo {
+  width: 250px;
+  border-image-width: 500px;
+  border: 100%;
+  margin-top: 25px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-list span {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #dcdde1;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  max-width: 600px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #3498db;
+}
+
+#contact p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
